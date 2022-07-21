@@ -59,12 +59,7 @@ body {
     overflow: hidden;
     margin: 0 auto;
 }
-.second-div{
-    /* display: grid;
-   grid-template-columns: repeat(4, 1fr);
-    grid-row-gap: 10px;  */
-    
-}
+
 /* buttondivision */
 .box{
     background-color: black;
@@ -116,10 +111,7 @@ body {
     width:100%;
     height: 175px;
 }
-.blog1{
-    
-   
-}
+
 .image1{
     height: 50%;
 }
@@ -161,8 +153,12 @@ hr{
     
 }
 
-/* @media screen and (max-width: 576px){
+@media screen and (max-width: 576px){
     .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .first-div2{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -173,4 +169,8 @@ hr{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-} */
+    .first-div2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

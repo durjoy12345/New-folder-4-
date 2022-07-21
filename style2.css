@@ -117,3 +117,25 @@ body {
 .image1 h3, p{
     text-align: center;
 }
+
+@media screen and (max-width: 576px){
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .first-div2{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .first-div2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
